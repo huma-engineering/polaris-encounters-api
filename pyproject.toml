@@ -6,10 +6,6 @@ authors = ["Andrew Gill <andrew.gill@sensynehealth.com>"]
 keywords = ["Swagger", "Encounters"]
 repository = "https://github.com/draysontechnologies/dhos-encounters-api"
 
-[[tool.poetry.source]]
-name = "sensynehealth"
-url = "https://pypi.fury.io/sensynehealth/"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 dictdiffer = "0.*"
