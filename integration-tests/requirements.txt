@@ -1,6 +1,7 @@
 behave==1.*
 black
 environs
+draymed
 faker==4.*
 isort
 kombu==4.*
