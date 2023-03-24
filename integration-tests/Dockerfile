@@ -1,5 +1,5 @@
 # Run the tests
-FROM python:3.9-slim
+FROM python:3.9
 
 WORKDIR /app
 ARG PIP_EXTRA_INDEX_URL
