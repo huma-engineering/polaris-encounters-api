@@ -55,6 +55,8 @@ jobs:
   integration_tests:
     name: Integration testing
     runs-on: ubuntu-latest
+    env:
+      SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY_PRIVATE }}
     steps:
       - uses: actions/checkout@v3
       - name: Log in to the GitHub Packages
